@@ -1,0 +1,48 @@
+/* =====================
+    Global Styles
+======================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* =====================
+    Background Styles
+======================== */
+header {
+    background-image: url("https://images.unsplash.com/photo-1661165587093-53c1029a6646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+/* =====================
+    List Flexbox Styles
+======================== */
+header section nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header section nav ul li {
+    margin: 0 1rem;
+    ;
+}
+
+header section nav ul li a {
+    text-decoration: none;
+}
+
+/* =====================
+    Section Flexbox Styles
+======================== */
+header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem;
+    background-color: rgba(48, 43, 43, 0.47);
+}
